@@ -1,0 +1,199 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #eef5ff;
+}
+
+/* styling the whole form container */
+.section-form {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80rem;
+  height: 50rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 28rem 1fr;
+  grid-gap: 5rem;
+  border-radius: 4px;
+  box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+/* Styling the container which contains the tabs buttons  */
+.tabs-container {
+  border-radius: 0.8rem;
+  background-color: green;
+  display: grid;
+  grid-template-rows: 28rem 1fr;
+  overflow: hidden;
+}
+.cont {
+  background-color: #493eff;
+}
+.tabs-buttons {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 90%;
+  color: #fff;
+}
+.tabs-buttons > *:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.btn-cont {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  align-items: center;
+  grid-column-gap: 3rem;
+}
+
+/* button element */
+.btn {
+  background-color: transparent;
+  outline: none;
+  padding: 1.5rem 1.8rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.active {
+  background-color: #042a5d;
+  border: none;
+}
+.span-1 {
+  text-align: left;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 200;
+}
+.span-2 {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* styling the color item */
+.color-item__1 {
+  background-image: url(../blob-scene-haikei.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*  Styling the form container */
+.form-container {
+  padding: 1rem;
+  position: relative;
+}
+.form-heading {
+  font-weight: 600;
+  font-size: 3.2rem;
+  letter-spacing: 1px;
+  color: #042a5d;
+  margin-bottom: 1rem;
+}
+.form-text {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+form > *:not(:last-child) {
+  margin-bottom: 3rem;
+}
+.form__label {
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.form__input {
+  width: 100%;
+  padding: 1.2rem;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #042a5d;
+}
+.form__input:focus {
+  box-shadow: 2px 2px 1rem rgba(0, 0, 0, 0.3);
+}
+.next-btn {
+  position: absolute;
+  bottom: 4rem;
+  right: 4rem;
+  background-color: #493eff;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  padding: 1.5rem 3rem;
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.next-btn:hover {
+  background-color: #042a5d;
+}
+
+/* Styling the cards section */
+.cards-container {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 18rem;
+  background-color: #333;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 8px;
+}
+.card > *:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.price {
+  text-align: center;
+}
+.price-text {
+  font-size: 4.2rem;
+  font-weight: 200;
+}
+.items {
+  margin: 0 auto;
+  width: 80%;
+}
+.item {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+.item i {
+  display: block;
+  color: #f9818f;
+}
+.item-text {
+  display: block;
+}
+.btn-choose {
+  outline: none;
+  background-color: none;
+  border: 1px solid #042a5d;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: 1.5rem;
+}

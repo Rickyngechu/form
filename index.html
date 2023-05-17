@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://kit.fontawesome.com/823927b6e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="section-form">
+      <div class="container">
+        <div class="tabs-container">
+          <div class="cont">
+            <div class="tabs-buttons">
+              <div class="btn-cont">
+                <button class="btn btn-1 active" data-set="1">1</button>
+                <p class="btn-text">
+                  <span class="span-1">step 1</span>
+                  <span class="span-2">Your info</span>
+                </p>
+                <!-- <span><b>step 1</b>Your info</span> -->
+              </div>
+              <div class="btn-cont">
+                <button class="btn btn-2" data-set="2">2</button>
+                <p class="btn-text">
+                  <span class="span-1">step 2</span>
+                  <span class="span-2">Select plan</span>
+                </p>
+                <!-- <span> <b>step 2</b> Select plan</span> -->
+              </div>
+              <div class="btn-cont">
+                <button class="btn btn-3" data-set="3">3</button>
+                <p class="btn-text">
+                  <span class="span-1">step 3</span>
+                  <span class="span-2">Adds on</span>
+                </p>
+                <!-- <span> <b>step 3</b>Adds on </span> -->
+              </div>
+              <div class="btn-cont">
+                <button class="btn btn-4" data-set="4">4</button>
+                <p class="btn-text">
+                  <span class="span-1">step 4</span>
+                  <span class="span-2"> Summary</span>
+                </p>
+
+                <!-- <span> <b>step 4</b> Summary</span> -->
+              </div>
+            </div>
+          </div>
+          <div class="color-item__1">&nbsp;</div>
+        </div>
+        <!-- <div class="form-container">
+          <div class="form-item form-item-1" data-set="1">
+            <h2 class="form-heading">Personal info</h2>
+            <p class="form-text">
+              Please provide your name,email address and phone number
+            </p>
+            <form action="#">
+              <div class="form-item">
+                <label for="name" class="form__label">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="form__input"
+                  placeholder="eg.Erick..."
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <label for="email" class="form__label">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="eg person@gmail.com"
+                  class="form__input"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <label for="tel" class="form__label">Phone number</label>
+                <input type="tel" id="tel" class="form__input" required />
+              </div>
+            </form>
+          </div>
+          <button class="next-btn">Next step</button>
+        </div> -->
+        <div class="form-container">
+          <div class="form-item form-item-1" data-set="1">
+            <h2 class="form-heading">Your monthly plan</h2>
+            <p class="form-text">Select your suitable monthly plan</p>
+            <div class="cards-container">
+              <div class="card card-1">
+                <div class="price"><h3 class="price-text">100$</h3></div>
+                <ul class="items">
+                  <li class="item">
+                    <i class="fa-solid fa-check"></i>
+                    <p class="item-text">Coding</p>
+                  </li>
+                  <li class="item">
+                    <i class="fa-solid fa-check"></i>
+                    <p class="item-text">Hosting</p>
+                  </li>
+                  <li class="item">
+                    <i class="fa-solid fa-check"></i>
+                    <p class="item-text">Devops</p>
+                  </li>
+                  <li class="item">
+                    <i class="fa-solid fa-xmark"></i>
+                    <p class="item-text">Backend</p>
+                  </li>
+                  <li class="item">
+                    <i class="fa-solid fa-xmark"></i>
+                    <p class="item-text">Rwd</p>
+                  </li>
+                </ul>
+                <button class="btn-choose">Choose</button>
+              </div>
+              <div class="card card-1">
+                <div class="price"><h3 class="price-text">350$</h3></div>
+                <ul class="items">
+                  <li class="item">
+                    <i class="fa-solid fa-check"></i>
+                    <p class="item-text">Coding</p>
+                  </li>
+                  <li class="item">
+                    <i class="fa-solid fa-check"></i>
+                    <p class="item-text">Hosting</p>
+                  </li>
+                  <li class="item">
+                    <i class="fa-solid fa-check"></i>
+                    <p class="item-text">Devops</p>
+                  </li>
+                  <li class="item">
+                    <i class="fa-solid fa-check"></i>
+                    <p class="item-text">Backend</p>
+                  </li>
+                  <li class="item">
+                    <i class="fa-solid fa-check"></i>
+                    <p class="item-text">Rwd</p>
+                  </li>
+                </ul>
+                <button class="btn-choose">Choose</button>
+              </div>
+            </div>
+          </div>
+          <button class="prev-btn">Previous&leftarrow;</button>
+          <button class="next-btn">Next step&rightarrow;</button>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
